@@ -6,6 +6,10 @@
 
 /* Toggle Styles */
 
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 .ficha {
     height: 150px;
 }
