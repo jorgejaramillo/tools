@@ -11,7 +11,8 @@
 }
 
 .ficha {
-    height: 150px;
+       padding-bottom: 20px;
+
 }
 .barra {}
 
@@ -25,6 +26,14 @@
 
 #wrapper.toggled {
     padding-left: 250px;
+}
+
+.cta {
+    margin-top: 5px;
+    background: #ddd;
+    border: none;
+    color: #000;
+    font-weight: bold;
 }
 
 #sidebar-wrapper {
