@@ -1368,3 +1368,10 @@ border: 1px solid #F6F6F6;
     .arrow.right.dark {background-position: -10px -15px;}
 
 }
+
+
+#post-home {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+}
