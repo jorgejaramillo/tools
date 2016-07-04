@@ -12,12 +12,6 @@
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="http://tools.jorgejaramillo.com/" />
 <meta name="author" content="Jorge Jaramillo" />
-<!-- Bootstrap Core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<!-- Custom CSS -->
-<link href="css/simple-sidebar.css" rel="stylesheet">
-
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,8 +19,6 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- FONT -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,700,300' rel='stylesheet' type='text/css'>
-
 </head>
 
 <body>
@@ -90,7 +82,7 @@
   </div>
   
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-3 control-label">Autor</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">Autor</label>
     <div class="col-sm-5">
       <input type="text" class="form-control" id="keywords" placeholder="Nombre del autor">
     </div>
@@ -101,18 +93,12 @@
 </select>
     </div>
   </div>
-   
-  
-  
-   
 
-  
   <div class="form-group">
     <div class="col-sm-10">
       <input type="button" name="button" id="button" value="GENERAR ETIQUETAS" onclick="gen_metatags()" class="btn btn-default">
     </div>
   </div>
-  <hr>
     
 
     </div>
@@ -128,7 +114,8 @@
         <div class="col-sm-8"></div>
         <div class="col-sm-4"></div>
     </div>
-    
+    <div class="row">
+        <hr>
 <p><h2>Explicación</h2></p> 
 <p class="lead">Esta herramienta facilita</p>
 <p><h2>Explicación</h2></p> 
@@ -143,7 +130,7 @@
 <p class="lead">Esta herramienta facilita</p>
 <p><h2>Explicación</h2></p> 
 <p class="lead">Esta herramienta facilita</p>
-
+</div>
 
 </div>
  <!-- /Container -->
@@ -153,6 +140,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
 
     <!-- Menu Toggle Script -->
     <script>
@@ -161,7 +149,11 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
-    
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,700,300' rel='stylesheet' type='text/css'>
     <script>
     function gen_metatags(){
       document.getElementById('metatags').value='<title>'+document.getElementById('titulo').value+'</title>'
