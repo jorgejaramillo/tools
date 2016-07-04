@@ -10,13 +10,14 @@
     font-family: 'Roboto', sans-serif;
     background-color: #fbfeff;
 }
+body {background-color: #fbfeff;}
 
 .header {
     text-align: center;
     border-bottom: 1px solid #efefef;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    background: #fff;
+    background-color: #fbfeff;
 }
 
 h2 {
