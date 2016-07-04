@@ -131,6 +131,19 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
+    
+    <script>
+    function gen_metatags(){
+      document.getElementById('metatags').value='<title>'+document.getElementById('titulo').value+'</title>'
+      document.getElementById('metatags').value+="\n"+'<meta name="title" content="'+document.getElementById('titulo').value+'" />'
+      document.getElementById('metatags').value+="\n"+'<meta name="description" content="'+document.getElementById('descripcion').value+'" />'
+      document.getElementById('metatags').value+="\n"+'<meta name="keywords" content="'+document.getElementById('keywords').value+'" />'
+      document.getElementById('metatags').value+="\n"+'<meta http-equiv="content-language" content="'+document.getElementById('idioma').value+'" />'
+      document.getElementById('metatags').value+="\n"+'<meta name="robots" content="'+document.getElementById('index').value+'" />'
+      document.getElementById('metatags').value+="\n"+'<link rel="canonical" href="'+document.getElementById('canonical').value+'" />'
+      document.getElementById('metatags').value+="\n"+'<meta name="author" content="'+document.getElementById('autor').value+'" />'
+    }
+    </script>
 
 </body>
 
