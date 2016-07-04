@@ -15,8 +15,8 @@ To use this template, choose one of the following options to get started:
 
 Mi nombre es **Jorge Jaramillo** Comparto diferentes contenidos de **Marketing Digital** como SEO, Analítica Web, Data, Pauta y Conversión.Me interesa compartir herramientas, metodologías y conocimiento. **Pueden visitar mi canal en Youtube** . [Jorge Jaramillo](https://www.youtube.com/user/jorgejaramillocom).
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+* https://twitter.com/jorgejaramillo
+* https://github.com/jorgejaramillo
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
