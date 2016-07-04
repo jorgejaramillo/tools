@@ -9,11 +9,11 @@ To use this template, choose one of the following options to get started:
 
 ## REPORTAR ERRORES
 
-¿Viste algún error? [crea un issue](https://github.com/jorgejaramillo/tools/issues/new) O escríbeme en Twitter [@JorgeJaramillo](http://startbootstrap.com/template-overviews/simple-sidebar/).
+¿Viste algún error? [crea un issue](https://github.com/jorgejaramillo/tools/issues/new) O escríbeme en Twitter [@JorgeJaramillo](https://twitter.com/JorgeJaramillo).
 
-## Creator
+## Creador
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+Mi nombre es **Jorge Jaramillo** Comparto diferentes contenidos de **Marketing Digital** como SEO, Analítica Web, Data, Pauta y Conversión.Me interesa compartir herramientas, metodologías y conocimiento. **Pueden visitar mi canal en Youtube** . [Jorge Jaramillo](https://www.youtube.com/user/jorgejaramillocom).
 
 * https://twitter.com/davidmillerskt
 * https://github.com/davidtmiller
