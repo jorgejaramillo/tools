@@ -107,9 +107,14 @@
              
               <p><h2>Resultado</h2></p>
               <label for="inputEmail3" class="control-label">Copia y pega este código en el &lt;head&gt;.</label>
-              <textarea id="metatags" class="form-control" rows="10"></textarea>
+              <textarea id="metatags" class="js-textareacopy form-control" rows="10"></textarea>
              
              </div>
+               <div class="form-group">
+    <div class="col-sm-10">
+      <input type="button" name="button" id="button" value="COPIAR VALORES" class="js-textareacopybtn btn btn-default">
+    </div>
+  </div>
         </div>
     </form> 
         <div class="col-sm-8"></div>
@@ -166,6 +171,20 @@
       document.getElementById('metatags').value+="\n"+'<link rel="canonical" href="'+document.getElementById('canonical').value+'" />'
       document.getElementById('metatags').value+="\n"+'<meta name="author" content="'+document.getElementById('autor').value+'" />'
     }
+    var copyTextareaBtn = document.querySelector('.js-textareacopybtn');
+
+    copyTextareaBtn.addEventListener('click', function(event) {
+      var copyTextarea = document.querySelector('.js-copytextarea');
+      copyTextarea.select();
+    
+      try {
+        var successful = document.execCommand('copy');
+        var msg = successful ? 'successful' : 'unsuccessful';
+        console.log('Copying text command was ' + msg);
+      } catch (err) {
+        console.log('Oops, unable to copy');
+      }
+    });
     </script>
 
 </body>
