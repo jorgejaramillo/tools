@@ -18,7 +18,14 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!-- FONT -->
+<!-- FONT -->
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/simple-sidebar.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,900,700,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700' rel='stylesheet' type='text/css'>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 </head>
 
 <body>
@@ -84,7 +91,7 @@
   <div class="form-group">
     <label for="inputPassword3" class="col-sm-2 control-label">Autor</label>
     <div class="col-sm-5">
-      <input type="text" class="form-control" id="keywords" placeholder="Nombre del autor">
+      <input type="text" class="form-control" id="author" placeholder="Nombre del autor">
     </div>
     <div class="form-inline"><label for="inputPassword3" class="col-sm-2 control-label">Index</label><select id="index" class="form-control">
   <option>index, follow</option>
@@ -147,11 +154,7 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900,700,300' rel='stylesheet' type='text/css'>
+
     <script>
     function gen_metatags(){
       document.getElementById('metatags').value='<title>'+document.getElementById('titulo').value+'</title>'
@@ -162,7 +165,13 @@
       document.getElementById('metatags').value+="\n"+'<meta name="robots" content="'+document.getElementById('index').value+'" />'
       document.getElementById('metatags').value+="\n"+'<link rel="canonical" href="'+document.getElementById('canonical').value+'" />'
       document.getElementById('metatags').value+="\n"+'<meta name="author" content="'+document.getElementById('autor').value+'" />'
+      document.getElementById('metatags').value+="\n"+'<meta property="og:title" content="'+document.getElementById('titulo').value+'" />'
+      document.getElementById('metatags').value+="\n"+'<meta property="og:site_name" content="'+document.getElementById('titulo').value+'" />'
+      document.getElementById('metatags').value+="\n"+'<meta name="url" content="'+document.getElementById('canonical').value+'" />'
     }
+
+
+
     var copyTextareaBtn = document.querySelector('.js-textareacopybtn');
 
     copyTextareaBtn.addEventListener('click', function(event) {
@@ -179,8 +188,7 @@
     });
     </script>
     <!--WEB FONTS-->
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700' rel='stylesheet' type='text/css'>
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
 
 </body>
 
